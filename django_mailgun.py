@@ -7,9 +7,6 @@ from django.core.mail.message import sanitize_address
 
 from requests.packages.urllib3.filepost import encode_multipart_formdata
 
-__version__ = '0.6.0'
-version = '0.6.0'
-
 
 class MailgunAPIError(Exception):
     pass
